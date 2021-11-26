@@ -21,11 +21,13 @@
   },
   "dependencies": {
     "@tailwindcss/forms": "^0.3.4",
+    "axios": "^0.24.0",
     "clsx": "^1.1.1",
     "next": "^12.0.4",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
-    "react-icons": "^4.3.1"
+    "react-icons": "^4.3.1",
+    "swr": "^1.0.1"
   },
   "devDependencies": {
     "@commitlint/cli": "^13.2.1",
@@ -46,6 +48,7 @@
     "identity-obj-proxy": "^3.0.0",
     "jest": "^27.3.1",
     "lint-staged": "^11.2.6",
+    "msw": "^0.35.0",
     "next-sitemap": "^1.6.203",
     "postcss": "^8.3.11",
     "prettier": "^2.4.1",
@@ -62,5 +65,8 @@
     "src/**/*.{json,css,scss,md}": [
       "prettier -w"
     ]
+  },
+  "msw": {
+    "workerDirectory": "public"
   }
 }
