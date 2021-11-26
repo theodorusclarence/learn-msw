@@ -3,8 +3,8 @@ import * as React from 'react';
 import UnstyledLink from '@/components/links/UnstyledLink';
 
 const links = [
-  { href: '/', label: 'Route 1' },
-  { href: '/', label: 'Route 2' },
+  { href: '/pokemon-gsp', label: 'Server Mock (GSP)' },
+  { href: '/pokemon-swr', label: 'Browser Mock (SWR)' },
 ];
 
 export default function Header() {

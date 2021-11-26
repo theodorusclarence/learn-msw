@@ -15,7 +15,8 @@ export default function PokemonPage({
       <main>
         <section className=''>
           <div className='min-h-screen py-20 layout'>
-            <h1>Pokemons</h1>
+            <h1>Pokemons using Get Static Props</h1>
+            <p>Should show &apos;bambang&apos; (msw only works in local dev)</p>
 
             {pokemonData && <pre>{JSON.stringify(pokemonData, null, 2)}</pre>}
           </div>
